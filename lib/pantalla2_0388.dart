@@ -8,19 +8,23 @@ class Pantalla2_0388 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla 2 Meraz0388"),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xff000000),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {}, //si presiona boton
-              child: Text("Pantalla 2"),
-            ),
-          ],
+          child: Container(
+        color: Colors.black,
+        width: double.infinity,
+        margin: EdgeInsets.all(15),
+        height: 100,
+        padding: EdgeInsets.all(16),
+        child: Text(
+          "Container Meraz0388",
+          style: TextStyle(
+            fontSize: 30,
+            color: Color(0xffffffff),
+          ),
         ),
-      ),
+      )),
     );
   } //fin widget
 } //fin pagina 2
